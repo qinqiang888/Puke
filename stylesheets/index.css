@@ -1,0 +1,123 @@
+body{
+    margin:0;
+<<<<<<< HEAD
+    font-family:"Cooper";
+    font-size:20px;
+    font-weight: bold;
+    background: url("../images/u=311183777,2929586325&fm=21&gp=0.jpg") -20px 40px;
+    /*background-position: -20px -100px;*/
+    background-size:cover;
+    color: #5011ff;
+}
+#head{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    float: right;
+    margin-right: 10px;
+    display: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+=======
+    /* font-family:"Curlz MT"; */
+    /* font-family:"Jazz LET"; */
+    font-family:"Mistral,Arial";
+    /* font-family:"Party LET"; */
+    font-size:18px;
+    background:#363636;
+    color:white;
+}
+*{
+    transition:all .3s ease;
+>>>>>>> origin/master
+}
+#sence{
+    width:810px;
+    height:600px;
+    margin:30px auto;
+    position:relative;
+    cursor:pointer;
+}
+.poker{
+    position:absolute;
+    width:90px;
+    height:120px;
+    text-align:center;
+    line-height:50px;
+    background-size:cover;
+    box-shadow: 1px 1px 3px black;
+    font-weight:800;
+
+    border-radius:3px;
+    opacity:0.95;
+}
+.ac{
+    background-color:#fc6042;
+}
+.ad{
+    background-color:#fcb941;
+}
+.ah{
+    background-color:#2cc990;
+}
+.as{
+    background-color:#2cb2c9;
+}
+
+.remain-poker{
+<<<<<<< HEAD
+    position:absolute;
+=======
+    box-shadow:none;
+    position:absoulte;
+>>>>>>> origin/master
+    bottom:0;
+    left:0;
+}
+
+.button{
+    position:absolute;
+    left:360px;
+<<<<<<< HEAD
+    width:100px;
+    height:30px;
+    border-radius:10px;
+    background:#043258;
+    color:#fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+=======
+    width:80px;
+    height:20px;
+    border-radius:3px;
+    background:#eee657;
+}
+.cur{
+    -webkit-transform:scale(1.1,1.1);
+>>>>>>> origin/master
+}
+#move-to-right{
+    bottom:80px;
+}
+#move-to-left{
+    bottom:40px;
+}
+.pyramid{
+    opacity: 0;
+}
+.set{
+    width:90px;
+    height:120px;
+    position:absolute;
+    bottom:0;
+}
+#left-set{
+    left:120px;
+}
+#right-set{
+    left:600px;
+}
